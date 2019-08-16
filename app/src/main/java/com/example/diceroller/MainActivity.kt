@@ -42,5 +42,6 @@ class MainActivity : AppCompatActivity() {
     private fun resetDice(){
 //        val resultText: TextView = findViewById(R.id.result_text)
 //        resultText.text = "0"
+        diceImage.setImageResource(R.drawable.empty_dice)
     }
 }
